@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 1.5rem;
+    font-family: sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+header, footer{
+    position: sticky;
+    background-color: blueviolet;
+    color:white;
+    text-align: center;
+    padding: 10px;
+}
+
+p{
+    padding: 10px 0;
+}
+
+main{
+    flex-grow: 1;
+    display: grid;
+    place-content: center;
+    background-image: radial-gradient(blueviolet, whitesmoke);
+}
+
+.no-wrap{
+    white-space: nowrap;
+}
+header{
+    top:0;
+}
+
+footer{
+    bottom: 0;
+}

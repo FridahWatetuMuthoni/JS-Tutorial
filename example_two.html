@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <section>
+        <form action="">
+            <label for="temperature">Enter a temperature:</label>
+            <br>
+            <input type="text" id="temperature">
+            <br>
+            <label>Convert to: </label>
+            <br>
+            <input type="radio" name="unit" id="celcius">
+            <label for="celcius">Celsius</label>
+            <input type="radio" name="unit" id="fahren">
+            <label for="fahren">Fahrenheit</label>
+            <br>
+            <h1 id="result">Answer: </h1>
+            <button id="convert">Convert</button>
+        </form>
+        <section>
+            <h1 id="mylabel">0</h1>
+        </section>
+        <section>
+            <button id="btn">Buy</button>
+        </section>
+    </section>
+    <script src="./JS/temperature_conversion.js"></script>
+    <script src="./JS/settimeout_function.js"></script>
+</body>
+</html>
